@@ -1,4 +1,4 @@
-# **Hygiene Product Analysis Project**  🚜👩‍🌾👨‍🌾 
+# **Hygiene Product Analysis Project**  🧼🪥🧴🧻 🚿 🧽
 
 ## **Project Overview**  
 This project provides a comprehensive analysis of hygiene product requests collected through U-ACCESS at UMass Boston in October 2024. The objective is to derive actionable insights to optimize inventory management, better meet student needs, and support data-driven decision-making.  
