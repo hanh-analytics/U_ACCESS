@@ -15,7 +15,8 @@ This project provides a comprehensive analysis of hygiene product requests colle
 - `scripts/`: SQL scripts for data extraction, cleaning, and transformation.  
 - `visualizations/`: Tableau workbooks for visualizations.  
 - `reports/`: Final analysis report and presentation materials.  
-- `README.md`: Project overview and documentation.  
+- `README.md`: Project overview and documentation.
+- `notebooks/`: Jupyter notebooks for K-Means clustering analysis and PCA visualization.
 
 
 ## **Data Description**  
@@ -30,6 +31,12 @@ The dataset includes:
 - **Balanced Category Usage:** Equal demand across product categories highlights diverse student needs.  
 - **Notable Gaps:** The significant difference between shampoo (160 requests) and conditioner (4 requests) suggests an opportunity to raise awareness about available products.  
 - **Gender Preferences:** Slightly higher requests for socks and deodorants from women, indicating balanced yet nuanced stocking requirements.
+- **K-Means Clustering Insights**:
+Cluster Distribution: The K-Means clustering analysis segmented the students into 3 distinct clusters based on their product request patterns.
+   - Cluster 1 (High demand for essentials): Students in this cluster showed higher demand for essential products like toilet paper, laundry detergent, and soap. This group represents students who prioritize basic hygiene needs.
+   - Cluster 2 (Balanced preferences): Students in this cluster exhibited a more balanced demand across the product categories, with a slightly higher preference for personal care items like shampoo, lotion, and deodorant.
+   - Cluster 3 (Personal care-focused): This group was more inclined towards personal care products, particularly higher requests for items like shaving cream, body wash, and face masks.
+   - Inventory Recommendations: Based on the clustering results, inventory management can be optimized by ensuring stock levels match the distinct preferences of each cluster. Cluster 1 may require more essentials, while Cluster 3 may need more personal care products.
 
 
 ## **Usage Instructions**  
@@ -39,12 +46,15 @@ The dataset includes:
    - Open the Tableau workbooks in `dashboards/` to explore interactive visualizations.  
 3. **Reports:**  
    - Access comprehensive insights and recommendations in `reports/`.
+4. **Clustering Analysis**:
+   - Open the Jupyter notebooks in notebooks/ to explore K-Means clustering analysis and PCA visualizations.
 
 
 ## **Technologies Used**  
 - **Data Analysis:** SQL  
 - **Visualization:** Tableau  
-- **Data Storage and Processing:** Excel  
+- **Data Storage and Processing:** Excel
+- **Clustering Analysis**: Python (Scikit-learn, pandas, NumPy, matplotlib, seaborn)
 
 
 ## **Recommendations**  
