@@ -1,7 +1,7 @@
 # **Notebooks for Hygiene Product Analysis Project** 📓
 
 ## **Overview**  
-his folder contains a Jupyter notebook for performing the **data analysis** and **machine learning** tasks in the **Hygiene Product Analysis Project**. The notebook integrates **PCA (Principal Component Analysis)** and **K-Means clustering** to provide actionable insights into student hygiene product requests and preferences.
+This folder contains a Jupyter notebook for performing the **data analysis** and **machine learning** tasks in the **Hygiene Product Analysis Project**. The notebook integrates **PCA (Principal Component Analysis)** and **K-Means clustering** to provide actionable insights into student hygiene product requests and preferences.
 
 ## **Contents of the Notebook**  
 1. **`hygiene_students.ipynb`**:  
